@@ -21,3 +21,7 @@ public class AQuestion2 {
         return fib = fibo(n - 1) + fibo(n - 2);
     }
 }
+/*
+* Day 15- Assignment Question-2
+//Kth term of Fibonnaci Series
+* */
