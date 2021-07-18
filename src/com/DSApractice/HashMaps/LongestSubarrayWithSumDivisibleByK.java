@@ -1,6 +1,7 @@
 package com.DSApractice.HashMaps;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 public class LongestSubarrayWithSumDivisibleByK {
@@ -19,16 +20,35 @@ public class LongestSubarrayWithSumDivisibleByK {
     }
 
     public static int solution(int[] A, int K) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
         int maxLen = 0;
-        int i = -1;
+        HashMap<Integer, Integer> hm = new LinkedHashMap<>();
+        //HashMap<Remender, Indexes>
         int sum = 0;
-        hm.put(sum, i);
-        while (i < A.length - 1) {
-            i++;
+        int rem = 0;
+        int index = -1;
+        hm.put(rem, index);
+        for (int i = 0; i < A.length; i++) {
             sum += A[i];
-            //if()
+            rem = sum % K;
+
+            if (rem < 0) {
+                //Normalizing The nagative Reminder
+                rem += K;
+            }
+            if (hm.containsKey(rem)) {
+                int inx = hm.get(rem);
+                int len = i - inx;
+                //Checking if the new len is greater than maxLen
+                if (len > maxLen) {
+                    maxLen = len;
+                }
+            } else {
+                hm.put(rem, i);
+            }
         }
         return maxLen;
     }
 }
+//12
+//2 4 8 1 7 3 6 1 9 2 7 3
+// K=5

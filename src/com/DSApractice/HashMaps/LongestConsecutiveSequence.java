@@ -17,20 +17,25 @@ public class LongestConsecutiveSequence {
         sc.nextLine();
 
         HashMap<Integer, Boolean> hm = new HashMap<>();
+        //Set all the Keys as TRUE initially
         for (int val : A) {
             hm.put(val, true);
         }
         System.out.println(hm);
+        //Set all those Keys as FALSE which also contains those elements, which comes before them.
         for (int val : A) {
             if (hm.containsKey(val - 1)) {
                 hm.put(val, false);
             }
         }
         System.out.println(hm);
+
         int maxStartPoint = 0;
         int maxLength = 0;
         for (int val : A) {
-            if (hm.get(val) == false) {
+            if (hm.get(val) == true) {
+//It is also working for FALSE, we just have to change maximumStartPoint-1 instead of maximumStartPoint in last loop
+//And in last condition also we have to do : for (int i = 0; i <= maxLength; i++)
                 int tempLen = 1;
                 int tempStartPoint = val;
 
@@ -43,8 +48,8 @@ public class LongestConsecutiveSequence {
                 }
             }
         }
-        for (int i = 0; i <= maxLength; i++) {
-            System.out.print((maxStartPoint-1) + i);
+        for (int i = 0; i < maxLength; i++) {
+            System.out.print(maxStartPoint + i + " ");
         }
     }
 }

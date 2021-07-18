@@ -5,9 +5,9 @@ import java.util.*;
 public class CountFrequency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of Array : ");
+        System.out.print("Enter the size of Array : ");
         int n = sc.nextInt();
-        System.out.println("Enter the elements in Array : ");
+        System.out.print("Enter the elements in Array : ");
         int[] A = new int[n];
         for (int i = 0; i < n; i++) {
             A[i] = sc.nextInt();
@@ -22,7 +22,7 @@ public class CountFrequency {
             }
         }
         for (Map.Entry m : hm.entrySet()) {
-            System.out.println(m.getKey() + " " + m.getValue());
+            System.out.println(m.getKey() + " : " + m.getValue());
         }
     }
 }

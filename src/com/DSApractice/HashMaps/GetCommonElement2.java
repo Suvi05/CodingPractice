@@ -9,7 +9,6 @@ public class GetCommonElement2 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> A = new ArrayList<>();
         System.out.println("Enter the Elements in Array A: ");
-
         while (sc.hasNextInt()) {
             A.add(sc.nextInt());
         }
@@ -21,7 +20,7 @@ public class GetCommonElement2 {
             B.add(sc.nextInt());
         }
         sc.nextLine();
-
+        //Add karega ye loop, elements ko HashMap me...
         HashMap<Integer, Integer> hm = new HashMap<>();
         for (int i = 0; i < A.size(); i++) {
             if (hm.containsKey(A.get(i))) {
@@ -32,6 +31,7 @@ public class GetCommonElement2 {
                 hm.put(A.get(i), 1);
             }
         }
+        //Consume karwayega ye wala loop elements ko HashMap me se
         for (int i = 0; i < B.size(); i++) {
             if (hm.containsKey(B.get(i)) && hm.get(B.get(i)) > 0) {
                 System.out.print(B.get(i) + " ");

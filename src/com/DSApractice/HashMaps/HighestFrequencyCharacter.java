@@ -21,12 +21,15 @@ public class HighestFrequencyCharacter {
                 hm.put(c, 1);
             }
         }
+        //Here Capital Letters and Small Letters are treated differently
         char maxChar = s.charAt(0);
         for (char key : hm.keySet()) {
             if (hm.get(key) > hm.get(maxChar)) {
                 maxChar = key;
             }
         }
-        System.out.println(hm.get(maxChar));
+        System.out.println(maxChar + " " + hm.get(maxChar));
     }
 }
+//Abracadabrabbb --> b 5
+//abracadabrabbb --> a 5

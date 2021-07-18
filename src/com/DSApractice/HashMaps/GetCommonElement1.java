@@ -8,14 +8,14 @@ public class GetCommonElement1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> A = new ArrayList<>();
-        System.out.println("Enter the Elements in Array A: ");
+        System.out.print("Enter the Elements in Array A: ");
 
         while (sc.hasNextInt()) {
             A.add(sc.nextInt());
         }
         sc.nextLine();
         ArrayList<Integer> B = new ArrayList<>();
-        System.out.println("Enter the Elements in Array B: ");
+        System.out.print("Enter the Elements in Array B: ");
         sc.nextLine();
         while (sc.hasNextInt()) {
             B.add(sc.nextInt());

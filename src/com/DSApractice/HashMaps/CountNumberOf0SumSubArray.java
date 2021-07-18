@@ -18,6 +18,7 @@ public class CountNumberOf0SumSubArray {
 
     public static int solution(int[] A) {
         HashMap<Integer, Integer> hm = new HashMap<>();
+        //HashMap<PrefixSumArray,Frequency>
         int count = 0;
         int i = -1;
         int sum = 0;
@@ -38,4 +39,7 @@ public class CountNumberOf0SumSubArray {
         return count;
     }
 }
-//2 8 -3 -5 2 -4 6 1 2 1 -3 4 -1 -3
+//12
+//2 8 -3 -5 2 -4 6 1 2 1 -3 4 --6
+//14
+//2 8 -3 -5 2 -4 6 1 2 1 -3 4 -1 -3 -- 11

@@ -19,6 +19,7 @@ public class LongestSubarrayWith0Sum {
 
     public static int solution(int[] A) {
         HashMap<Integer, Integer> hm = new LinkedHashMap<>();
+        //HashMap<PrefixSumArray,Index>
         int maxLen = 0;
         int i = -1;
         int sum = 0;
@@ -30,6 +31,7 @@ public class LongestSubarrayWith0Sum {
                 hm.put(sum, i);
             } else {
                 int len = i - hm.get(sum);
+                //Because of this hm.get(sum) we are taking sum as Key
                 if (len > maxLen) {
                     maxLen = len;
                 }
@@ -38,4 +40,5 @@ public class LongestSubarrayWith0Sum {
         return maxLen;
     }
 }
+//12
 //2 8 -3 -5 2 -4 6 1 2 1 -3 4
