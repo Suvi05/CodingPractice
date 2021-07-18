@@ -1,7 +1,6 @@
 package com.Scaler.Homework.Day13;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class HQuestion5_1 {
     public static void main(String[] args) {
@@ -20,39 +19,53 @@ public class HQuestion5_1 {
     }
 
     public static int solve(int[] A, int B) {
-        int finalDiff = 0;
-        int maxFreq = 0;
-        int minFreq = 0;
+        int fdiff = 0;
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        ArrayList<Integer> arr = new ArrayList<>();
         Arrays.sort(A);
         for (int i = 0; i < A.length; i++) {
-            int l = A[A.length - 1];
-            int s = A[0];
-
-            if (A[i] == A[A.length - 1]) {
-                maxFreq++;
-            } else if (A[i] == A[0]) {
-                minFreq++;
+            if (hm.containsKey(A[i])) {
+                int of = hm.get(A[i]);
+                int nf = of + 1;
+                hm.put(A[i], nf);
+            } else {
+                arr.add(A[i]);
+                hm.put(A[i], 1);
             }
-            while (B != 0) {
-                if (maxFreq < minFreq) {
-                    if (B < maxFreq) {
-                        break;
-                    } else {
-                        B -= maxFreq;
-                        A[A.length - 1] = A[A.length - 1] - 1;
-                    }
-                } else if (maxFreq > minFreq) {
-                    //Increment
-                    if (B < minFreq) {
-                        break;
-                    } else {
-                        B -= minFreq;
-                        A[0] = A[0] + 1;
-                    }
+        }
+        int max = arr.size() - 1;
+        int min = 0;
+
+        while (B > 0 && min < max) {
+            if (hm.get(arr.get(max)) > hm.get(arr.get(min))) {
+                if ((B - (arr.get(min + 1) - arr.get(min)) * hm.get(arr.get(min))) >= 0) {
+                    B = B - (arr.get(min + 1) - arr.get(min)) * hm.get(arr.get(min));
+                    hm.put(arr.get(min + 1), hm.get(arr.get(min)) + hm.get(arr.get(min + 1)));
+                    min = min + 1;
+                } else {
+                    fdiff = arr.get(max) - (arr.get(min) + B / hm.get(arr.get(min)));
+                    break;
+                }
+            } else {
+                if (B - (arr.get(max) - arr.get(max - 1)) * hm.get(arr.get(max)) >= 0) {
+                    B = B - (arr.get(max) - arr.get(max - 1)) * hm.get(arr.get(max));
+                    hm.put(arr.get(max - 1), hm.get(arr.get(max)) + hm.get(arr.get(max - 1)));
+                    max = max - 1;
+                } else {
+                    fdiff = (arr.get(max) - B / hm.get(arr.get(max)) - arr.get(min));
+                    break;
                 }
             }
-            finalDiff = l - s;
+            // System.out.println(min+" "+ max+" "+B);
         }
-        return finalDiff;
+        if (B == 0) {
+            fdiff = arr.get(max) - arr.get(min);
+        }
+        return fdiff;
     }
 }
+//5
+//2 8 6 9 3
+//3 -- 5
+//4 6 3 1 4
+//5 -- 1
