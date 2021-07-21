@@ -1,0 +1,13 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(­ÿ´øÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Çä®
+Ksquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(Å‰Ÿœ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢Î€’
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(í‰¶Ó8‡Úˆ©«/
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÈƒ…
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢Î€’

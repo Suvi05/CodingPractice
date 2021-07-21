@@ -1,0 +1,14 @@
+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü´¸éıÿÿÿÿ
+Usquid:S1155 ">Use isEmpty() to check whether the collection is empty or not.(“«Øº
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø™
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+T
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Õçµ»ıÿÿÿÿ
+T
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ı¦¢øÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹©§ıÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Çä®

@@ -1,11 +1,11 @@
 package com.Scaler.Homework.Day14;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-public class HQuestion3 {
+public class HQuestion3_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the String : ");
@@ -18,25 +18,16 @@ public class HQuestion3 {
     public static int solve(String A, int B) {
         int count = 0;
         char[] ch = A.toCharArray();
-        int[] freq = new int[26];
+        Arrays.sort(ch);
+        ArrayList<Character> arr = new ArrayList<>();
         for (int i = 0; i < A.length(); i++) {
-            freq[ch[i] - 'a']++;
-            if (freq[ch[i] - 'a'] == 1) {
-                count++;
-            }
+            arr.add(ch[i]);
         }
-        Arrays.sort(freq);
-        for (int i = 0; i < 26; i++) {
-            if (B - freq[i] >= 0 && freq[i] != 0) {
-                count--;
-                B -= freq[i];
-            }
-        }
+
+
         return count;
     }
 }
+
+
 //abcabbccd
-//a-2  b-3 c-3 d-1
-//d-1 a-2 b-3 c-3
-
-
