@@ -54,9 +54,9 @@ public class HQuestion1_1 {
         return count;
     }
 
-    public static boolean compare(HashMap<Character, Integer> smap, HashMap<Character, Integer> pmap) {
-        for (char sch : smap.keySet()) {
-            if (pmap.getOrDefault(sch, 0) != smap.get(sch)) {
+    public static boolean compare(HashMap<Character, Integer> Bmap, HashMap<Character, Integer> Amap) {
+        for (char sch : Amap.keySet()) {
+            if (Bmap.getOrDefault(sch, 0).intValue() != Amap.get(sch).intValue()) {
                 return false;
             }
         }
