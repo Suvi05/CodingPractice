@@ -17,23 +17,19 @@ public class HQuestion3 {
     }
 
     public static String solve(int[] A) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
-        int tom = 0;
-        int harry = 0;
-        if (A.length % 2 == 0) {
-            for (int i = 0; i < A.length; i++) {
-                if (hm.containsKey(A[i])) {
-                    hm.put(A[i], hm.get(A[i]) + 1);
-                } else {
-                    hm.put(A[i], 1);
-                }
-            }
+        int count1 = 0;
+        int count2 = 0;
 
-            for (int i = 0; i < A.length; i++) {
-                if (hm.containsKey(A[i])) {
-                    return "WIN";
-                }
+        for (int i = 0; i < A.length; i++) {
+            int a = A[0];
+            if (A[i] == a) {
+                count1++;
+            } else {
+                count2++;
             }
+        }
+        if (count1 == count2) {
+            return "WIN";
         }
         return "LOSE";
     }

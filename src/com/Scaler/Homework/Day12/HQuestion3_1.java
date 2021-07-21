@@ -1,5 +1,6 @@
 package com.Scaler.Homework.Day12;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -17,17 +18,21 @@ public class HQuestion3_1 {
     }
 
     public static String solve(int[] A) {
-        HashSet<Integer> hs = new HashSet<>();
+        HashMap<Integer, Integer> hm = new HashMap();
         for (int i = 0; i < A.length; i++) {
-            if (!hs.contains(A[i])) {
-                hs.add(A[i]);
+            if (hm.containsKey(A[i])) {
+                int of = hm.get(A[i]);
+                int nf = of + 1;
+                hm.put(A[i], nf);
+            } else {
+                hm.put(A[i], 1);
             }
         }
-        if (A.length % 2 == 0 && hs.size() % 2 == 0) {
-            for (int i = 0; i < A.length; i++) {
-                if (hs.contains(A[i])) {
-                    return "WIN";
-                }
+        System.out.println(hm);
+
+        if (hm.size() / 2 == 1) {
+            if (hm.get(A[0]) == hm.get(A[1])) {
+                return "WIN";
             }
         }
         return "LOSE";
