@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class HQuestion4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of N : ");
         int n = sc.nextInt();
 
-        HQuestion4 obj = new HQuestion4();
-        System.out.println(obj.solve(n));
+        System.out.println(solve(n));
     }
 
-    int solve(int A) {
+    public static int[][] solve(int A) {
         int[][] B = new int[A][A];
         for (int i = 0; i < A; i++) {
             for (int j = 0; j <= i; j++) {
-                B[i][j] = j+1;
+                B[i][j] = j + 1;
             }
         }
         for (int i = 0; i < A; i++) {
@@ -25,7 +25,7 @@ public class HQuestion4 {
             }
             System.out.println();
         }
-        return 1;
+        return B;
     }
 }
 
