@@ -6,23 +6,23 @@ public class HQuestion2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Number of Elements in Array A: ");
+        System.out.print("Number of Elements in Array : ");
         int n = sc.nextInt();
         int count = 0;
+        System.out.println("Enter the Elements in Array :");
         int[] A = new int[n];
-
         for (int i = 0; i < n; i++) {
             A[i] = sc.nextInt();
         }
         int[] B = A;
-        int k=0;
-        int[] C=new int[n-2];
+        int k = 0;
+        int[] C = new int[n - 2];
         for (int i = 0; i < B.length; i++) {
             for (int j = 0; j < A.length; j++) {
                 if (B[i] < A[j]) {
                     count++;
                     if (count > 1) {
-                        C[k]=B[i];
+                        C[k] = B[i];
                         k++;
                         break;
                     }
@@ -35,7 +35,6 @@ public class HQuestion2 {
         }
     }
 }
-
 
 
 //------SOLUTION FOR SCALER-------------
