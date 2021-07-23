@@ -1,4 +1,4 @@
-package com.Scaler.Homework.Day7;
+package com.Scaler.Homework.Day6;
 
 import java.util.Scanner;
 
