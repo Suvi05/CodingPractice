@@ -1,9 +1,8 @@
 
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Œ™¸«ıÿÿÿÿ8¬õ¡«/
-e$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(­Ê„8÷Ìæ¡«/
-Usquid:S1854"7Remove this useless assignment to local variable "fib".(­Ê„8÷Ìæ¡«/
-[
-squid:S106
-"9Replace this use of System.out or System.err by a logger.(æ·øËûÿÿÿÿ8¬õ¡«/
-qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò™á
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ™¸«ıÿÿÿÿ8¬õ¡«/
+c$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(­Ê„8÷Ìæ¡«/
+Ssquid:S1854"7Remove this useless assignment to local variable "fib".(­Ê„8÷Ìæ¡«/
+osquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò™á
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ·øËûÿÿÿÿ8¬õ¡«/
