@@ -1,0 +1,7 @@
+
+Isquid:S1481"&Remove this unused "z" local variable.(Êûö…ıÿÿÿÿ8òÈ…’¬/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Éê—8¬—€’¬/
+qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ĞóªP
+Xsquid:S1854"5Remove this useless assignment to local variable "z".(Êûö…ıÿÿÿÿ8òÈ…’¬/
+?squid:S1643"Use a StringBuilder instead.(ëìíúûÿÿÿÿ8¬—€’¬/

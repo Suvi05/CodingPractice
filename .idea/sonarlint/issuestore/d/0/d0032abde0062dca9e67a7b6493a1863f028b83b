@@ -1,0 +1,19 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø„áÇşÿÿÿÿ8ÍÖŒô«/
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(øÓ×›8öÖÀ÷«/
+\squid:S1854"9Remove this useless assignment to local variable "index".(ó¯òóúÿÿÿÿ8Î›÷«/
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“•²°
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÓ×›8ÍÖŒô«/
+V
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(šû•¤8¿º†ô«/
+Msquid:S1481"*Remove this unused "index" local variable.(ó¯òóúÿÿÿÿ8Î›÷«/
+isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(áó˜µ8‘Äù«/
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü´¸éıÿÿÿÿ8İòŠô«/
+_squid:UselessImportCheck"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8¯ò¸÷«/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(â¡ÜŠ8†ó‡ô«/
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(¯ô¢ô8öÖÀ÷«/
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Û¿©8è¶¼÷«/

@@ -1,0 +1,12 @@
+
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òž€²8¼ÄÞ”¬/
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡É‡Âÿÿÿÿÿ8“Ó”•¬/
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©üÛËüÿÿÿÿ
+psquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Ìîþ8§œÝ”¬/
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ø„áÇþÿÿÿÿ8§œÝ”¬/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(èÖ´‡8œ¤Ü”¬/
+Rsquid:S1066"/Merge this if statement with the enclosing one.(¸á­ÿûÿÿÿÿ8ñõå”¬/
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‚¿Åùÿÿÿÿ8“Ó”•¬/

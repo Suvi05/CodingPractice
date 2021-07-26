@@ -1,0 +1,12 @@
+
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(„Î¨öıÿÿÿÿ8Ÿ‚Ì¬/
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³êäùÿÿÿÿ
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( µ™ƒ8Ÿ‚Ì¬/
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿——Ş8Ÿ‚Ì¬/
+usquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó§Ä÷üÿÿÿÿ8Ÿ‚Ì¬/
+Vsquid:S1197 "8Move the array designator from the variable to the type.(‘æ¨¥8Ÿ‚Ì¬/
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğ¹ü8Ÿ‚Ì¬/
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ø„áÇşÿÿÿÿ8Ÿ‚Ì¬/

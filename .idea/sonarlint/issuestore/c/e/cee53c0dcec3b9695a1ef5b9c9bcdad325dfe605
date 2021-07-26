@@ -1,0 +1,29 @@
+
+Šsquid:S13199"lThe type of the "Bmap" object should be an interface such as "Map" rather than the implementation "HashMap".(¶»„á8Ğè ½¬/
+Ksquid:S1125%"(Remove the literal "true" boolean value.(àì²ıÿÿÿÿ8Éİÿ»¬/
+Ksquid:S11253"(Remove the literal "true" boolean value.(àì²ıÿÿÿÿ8Éİÿ»¬/
+|squid:S22343"YParameters to compare have the same names but not the same order as the method arguments.(àì²ıÿÿÿÿ8Ğè ½¬/
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†’”ºüÿÿÿÿ
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„Ñ¼8ØÇ¡¼¬/
+O
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(éÖî¼
+Wsquid:S2864:"4Iterate over the "entrySet" instead of the "keySet".(ºÆñïÿÿÿÿÿ8Ğè ½¬/
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó§Ä÷üÿÿÿÿ
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„Ñ¼8œÜ¡¼¬/
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ä±Ü8æş ¼¬/
+=squid:S1481"&Remove this unused "m" local variable.(–É¹”
+Lsquid:S1854"5Remove this useless assignment to local variable "m".(–É¹”
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çäÕùÿÿÿÿ8ØÇ¡¼¬/
+psquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»„á8Ğè ½¬/
+Bsquid:S1481"&Remove this unused "n" local variable.(İˆÊ’üÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈŒÂ¢
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(›à¸ùÿÿÿÿ8ëàº¬/
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡²øÿÿÿÿ
+psquid:S001179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶»„á8Ğè ½¬/
+Qsquid:S1854"5Remove this useless assignment to local variable "n".(İˆÊ’üÿÿÿÿ
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ä‰´ôÿÿÿÿÿ
+|squid:S2234%"YParameters to compare have the same names but not the same order as the method arguments.(àì²ıÿÿÿÿ8Ğè ½¬/
+Šsquid:S13199"lThe type of the "Amap" object should be an interface such as "Map" rather than the implementation "HashMap".(¶»„á8Ğè ½¬/

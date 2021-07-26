@@ -1,0 +1,16 @@
+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–‹ÍÒûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(µÒÜ–ÿÿÿÿÿ
+|squid:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ñÃ÷ºúÿÿÿÿ8ãÉŠÀ¬/
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì Ë®úÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(›à¸ùÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó§Ä÷üÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–‹ÍÒûÿÿÿÿ
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¹†…À¬/
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğ¹ü
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó¶ıİøÿÿÿÿ
+dsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«€†
+Ksquid:S1172"(Remove this unused method parameter "B".(–‹ÍÒûÿÿÿÿ8¹†…À¬/

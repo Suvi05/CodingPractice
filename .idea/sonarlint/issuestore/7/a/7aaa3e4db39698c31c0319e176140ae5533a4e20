@@ -1,0 +1,21 @@
+
+Fsquid:S1481"(Remove this unused "ans" local variable.(è¿ºš8¬×¾¼¬/
+Lsquid:S1854"5Remove this useless assignment to local variable "m".(–É¹”
+Qsquid:S1854"5Remove this useless assignment to local variable "n".(İˆÊ’üÿÿÿÿ
+Isquid:S1481"&Remove this unused "n" local variable.(£”Æ¬şÿÿÿÿ8¬×¾¼¬/
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(è¿ºš8¬×¾¼¬/
+Usquid:S1854"7Remove this useless assignment to local variable "ans".(è¿ºš8¬×¾¼¬/
+Bsquid:S1481"&Remove this unused "n" local variable.(İˆÊ’üÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó§Ä÷üÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(›à¸ùÿÿÿÿ
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8¬×¾¼¬/
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†’”ºüÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñ¼š™
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈŒÂ¢
+=squid:S1481"&Remove this unused "m" local variable.(–É¹”
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡²øÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÖî¼
+Xsquid:S1854"5Remove this useless assignment to local variable "n".(£”Æ¬şÿÿÿÿ8¬×¾¼¬/
