@@ -157,3 +157,15 @@ i
 9src/com/Scaler/Assignment/Day6/AQuestion2_2Kernighan.java,3\b\3b07523845c10eef8489f5ed73b39aab46943248
 _
 /src/com/Scaler/Assignment/Day16/AQuestion1.java,7\f\7f8bed25b7c0fdf43c45307e1b51b94737a0eb11
+_
+/src/com/Scaler/Assignment/Day18/AQuestion3.java,5\8\58908ac375c0b3e089fa0808b1b8f70e31ed67b2
+a
+1src/com/Scaler/Assignment/Day18/AQuestion3_1.java,4\c\4c04cc6f42c7b3aa52c6e9dc6009af89d0d6a661
+O
+Pushing_Unversioned_Files.patch,4\0\40713d6a367bce4198f60e3da3998244cf73b866
+_
+/src/com/Scaler/Assignment/Day18/AQuestion1.java,8\0\80c266a943cca128fb85f5e38267cd6e3808d7b6
+a
+1src/com/Scaler/Assignment/Day19/AQuestion3_1.java,9\d\9d6c24bf7522a242638be79ace7c378c07638c3a
+_
+/src/com/Scaler/Assignment/Day19/AQuestion3.java,1\e\1e7d1f700cda77661306a5bf75d72d494df9cfac
