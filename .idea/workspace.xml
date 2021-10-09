@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/RotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Unversioned Files added">
+      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Searching/BinarySearchIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Searching/BinarySearchRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Strings/CharacterFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ClassObjectConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ConstructorOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/RotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,14 +50,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.LongestConsecutiveSequence" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Pepcoding.OOPs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ClassObjectConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ClassObjectConstructor" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Arrays.Arrays1D.RotateArray" />
+    <configuration name="ConstructorOverloading$Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ConstructorOverloading$Rectangle" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Arrays.Arrays1D.*" />
+          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPowerOf3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCode.Maths.IsPowerOf3" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LeetCode.Maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CodifydDrive.Strings" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.CodifydDrive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThisKeyword1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ThisKeyword1" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.ThisKeyword1" />
+        <item itemvalue="Application.ConstructorOverloading$Rectangle" />
+        <item itemvalue="Application.ClassObjectConstructor" />
+        <item itemvalue="Application.Strings" />
+        <item itemvalue="Application.IsPowerOf3" />
       </list>
     </recent_temporary>
   </component>
@@ -78,6 +142,21 @@
       <option name="presentableId" value="Default" />
       <updated>1631728514449</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rotate Array program">
+      <created>1631734030663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631734030663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unversioned Files added">
+      <created>1631734119783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631734119783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +169,67 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rotate Array program" />
+    <MESSAGE value="Unversioned Files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Files added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Searching/BinarySearchIteration.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -21,6 +21,10 @@ public class RotateArray {
     }
 
     public static void rotate(int[] A, int m) {
+        if (m < A.length) {
+            m = m + A.length;
+        }
+        m = m % A.length;
         int[] firsthalf = new int[A.length - m];
         for (int i = 0; i < A.length - m; i++) {
             firsthalf[i] = A[i];
