@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="3nd Use Case of &quot;this&quot; Keyword &#10;//Constructor Chaining">
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Basics/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Basics/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/BankCustomerConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/BankCustomerM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/BankCustomerRV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/DefaultConstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/ParameterizedConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/Constructor/UserDefinedConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/ConstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/NonStaticMembers/NonStaticBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/NonStaticMembers/NonStaticVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/StaticMembers/StaticBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/StaticMembers/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/JavaTraining/StaticMembers/StaticVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/HeightOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/MaxOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ClassObjectConstructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ConstructorOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/OOPs/ThisKeyword3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +68,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Pepcoding.Trees.GenericTrees" />
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThisKeyword3">
-    <configuration name="ClassObjectConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ClassObjectConstructor" />
+  <component name="RunManager" selected="Application.ConstructorOfTree">
+    <configuration name="ConstructorOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorOverloading$Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ConstructorOverloading$Rectangle" />
+    <configuration name="DefaultConstructorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JavaTraining.Constructor.DefaultConstructorDemo" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="PATTERN" value="com.JavaTraining.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisKeyword1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ThisKeyword1" />
+    <configuration name="HeightOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.HeightOfTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisKeyword2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ThisKeyword2" />
+    <configuration name="MaxOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.MaxOfTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThisKeyword3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.OOPs.ThisKeyword3" />
+    <configuration name="SizeOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.SizeOfTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.OOPs.*" />
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThisKeyword3" />
-        <item itemvalue="Application.ThisKeyword2" />
-        <item itemvalue="Application.ThisKeyword1" />
-        <item itemvalue="Application.ConstructorOverloading$Rectangle" />
-        <item itemvalue="Application.ClassObjectConstructor" />
+        <item itemvalue="Application.ConstructorOfTree" />
+        <item itemvalue="Application.HeightOfTree" />
+        <item itemvalue="Application.MaxOfTree" />
+        <item itemvalue="Application.SizeOfTree" />
+        <item itemvalue="Application.DefaultConstructorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633809139101</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="3nd Use Case of &quot;this&quot; Keyword &#10;&quot;this&quot; can be used to invoke current class constructor.&#10;//Constructor Chaining">
+      <created>1633840771227</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633840771227</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +219,8 @@
     <MESSAGE value="Unversioned Files added" />
     <MESSAGE value="2nd Use Case of &quot;this&quot; Keyword" />
     <MESSAGE value="3nd Use Case of &quot;this&quot; Keyword &#10;//Constructor Chaining" />
-    <option name="LAST_COMMIT_MESSAGE" value="3nd Use Case of &quot;this&quot; Keyword &#10;//Constructor Chaining" />
+    <MESSAGE value="3nd Use Case of &quot;this&quot; Keyword &#10;&quot;this&quot; can be used to invoke current class constructor.&#10;//Constructor Chaining" />
+    <option name="LAST_COMMIT_MESSAGE" value="3nd Use Case of &quot;this&quot; Keyword &#10;&quot;this&quot; can be used to invoke current class constructor.&#10;//Constructor Chaining" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +274,186 @@
           <url>file://$PROJECT_DIR$/src/com/LeetCode/Maths/IsPowerOf3.java</url>
           <line>8</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>63</line>
+          <properties class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>14</line>
+          <properties class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
+          <line>50</line>
+          <properties class="com.Pepcoding.Trees.GenericTrees.SizeOfTree" method="size">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
+          <line>9</line>
+          <properties field="data" class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree.Node" />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
