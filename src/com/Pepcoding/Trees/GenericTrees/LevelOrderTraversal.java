@@ -1,9 +1,11 @@
 package com.Pepcoding.Trees.GenericTrees;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Queue;
 import java.util.Stack;
 
-public class TraversalOfTree {
+public class LevelOrderTraversal {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
@@ -30,20 +32,23 @@ public class TraversalOfTree {
                 st.push(t);
             }
         }
-        traversal(root);
+        levelTraversal(root);
     }
 
-    public static void traversal(Node root) {
-        //Eular's Left, Node's Pre Area, On the way deep in the recursion
-        System.out.println("Node Pre " + root.data);
-        for (Node child : root.children) {
-            //Edge Pre Area
-            System.out.println("Edge Pre " + root.data + "--" + child.data);
-            traversal(child);
-            //Edge Post Area
-            System.out.println("Edge Post " + root.data + "--" + child.data);
+    public static void levelTraversal(Node root) {
+        //Remove Print Add
+        Queue<Node> q = new ArrayDeque<>();
+        //Adding root in queue, because if we are passing root means at least 1 node is there in tree
+        q.add(root);
+
+        //We will loop till the queue becomes empty
+        while (q.size() > 0) {
+            root = q.remove();                    //Remove
+            System.out.print(root.data + " ");    //Print
+            for (Node child : root.children) {    //Add
+                q.add(child);  //Adding child of every node in queue //FIFO manner
+            }
         }
-        //Eular's Right, Node's Post Area, On the way out of the recursion
-        System.out.println("Node Post " + root.data);
+        System.out.println(".");
     }
 }

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Level Order Traversal Of Generic Tree" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/TraversalOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/TraversalOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/TraversalOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/TraversalOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/EularTraversal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,20 +56,7 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelTraversalOfTree">
-    <configuration name="ConstructorOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LevelOrderLinewiseTraversal">
     <configuration name="DisplayOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.DisplayOfTree" />
       <module name="CodingPractice" />
@@ -72,8 +70,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelTraversalOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelTraversalOfTree" />
+    <configuration name="EularTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.EularTraversal" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOrderLinewiseTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewiseTraversal" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderTraversal" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -98,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.TraversalOfTree" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LevelTraversalOfTree" />
-        <item itemvalue="Application.TraversalOfTree" />
+        <item itemvalue="Application.LevelOrderLinewiseTraversal" />
+        <item itemvalue="Application.LevelOrderTraversal" />
+        <item itemvalue="Application.EularTraversal" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DisplayOfTree" />
-        <item itemvalue="Application.ConstructorOfTree" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645946746796</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Test">
+      <created>1645953217295</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645953217295</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +242,8 @@
     <MESSAGE value="Constructor Of Generic Tree&#10;Display Of Generic Tree&#10;Size Of Generic Tree&#10;Max Of Generic Tree&#10;Height of Generic Tree" />
     <MESSAGE value="Traversal Of Generic Tree" />
     <MESSAGE value="Level Order Traversal Of Generic Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level Order Traversal Of Generic Tree" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,6 +478,10 @@
           <properties field="data" class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree.Node" />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="62" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

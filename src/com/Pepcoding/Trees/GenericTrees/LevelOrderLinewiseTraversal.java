@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class LevelTraversalOfTree {
+public class LevelOrderLinewiseTraversal {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
@@ -37,16 +37,24 @@ public class LevelTraversalOfTree {
 
     public static void levelTraversal(Node root) {
         //Remove Print Add
-        Queue<Node> q = new ArrayDeque<>();
+        Queue<Node> mq = new ArrayDeque<>(); //Main Queue
         //Adding root in queue, because if we are passing root means at least 1 node is there in tree
-        q.add(root);
+        mq.add(root);
 
+        Queue<Node> cq = new ArrayDeque<>(); //Child Queue
         //We will loop till the queue becomes empty
-        while (q.size() > 0) {
-            root = q.remove();                    //Remove
+        while (mq.size() > 0) {
+            root = mq.remove();                    //Remove
             System.out.print(root.data + " ");    //Print
+
             for (Node child : root.children) {    //Add
-                q.add(child);  //Adding child of every node in queue //FIFO manner
+                cq.add(child);  //Adding child of every node in queue //FIFO manner
+            }
+
+            if (mq.size() == 0) {
+                mq = cq;
+                cq = new ArrayDeque<>();
+                System.out.println();
             }
         }
         System.out.println(".");
