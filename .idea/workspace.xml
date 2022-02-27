@@ -50,6 +50,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.LevelOrderLinewise3Traversal">
+    <configuration name="LevelOrderLinewise1Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise1Traversal" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LevelOrderLinewise2Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise2Traversal" />
       <module name="CodingPractice" />
@@ -65,19 +78,6 @@
     </configuration>
     <configuration name="LevelOrderLinewise3Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise3Traversal" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderLinewiseTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewiseTraversal" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +120,7 @@
         <item itemvalue="Application.LevelOrderLinewise3Traversal" />
         <item itemvalue="Application.LevelOrderLinewise2Traversal" />
         <item itemvalue="Application.LevelOrderLinewiseZigZagTraversal" />
-        <item itemvalue="Application.LevelOrderLinewiseTraversal" />
+        <item itemvalue="Application.LevelOrderLinewise1Traversal" />
         <item itemvalue="Application.LevelOrderTraversal" />
       </list>
     </recent_temporary>

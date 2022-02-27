@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class LevelOrderLinewiseTraversal {
+public class LevelOrderLinewise1Traversal {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
