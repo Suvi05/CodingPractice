@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Constructor Of Generic Tree&#10;Display Of Generic Tree&#10;Size Of Generic Tree&#10;Max Of Generic Tree&#10;Height of Generic Tree">
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/TraversalOfTree.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Traversal Of Generic Tree">
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/MaxOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/MaxOfTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/SizeOfTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/SizeOfTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/HeightOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/HeightOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/MaxOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/MaxOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,7 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TraversalOfTree">
+  <component name="RunManager" selected="Application.LevelTraversalOfTree">
     <configuration name="ConstructorOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree" />
       <module name="CodingPractice" />
@@ -84,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeightOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.HeightOfTree" />
+    <configuration name="LevelTraversalOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelTraversalOfTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelTraversalOfTree" />
         <item itemvalue="Application.TraversalOfTree" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DisplayOfTree" />
         <item itemvalue="Application.ConstructorOfTree" />
-        <item itemvalue="Application.HeightOfTree" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645888128619</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Traversal Of Generic Tree">
+      <created>1645931244120</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645931244120</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,7 +211,8 @@
     <MESSAGE value="3nd Use Case of &quot;this&quot; Keyword &#10;//Constructor Chaining" />
     <MESSAGE value="3nd Use Case of &quot;this&quot; Keyword &#10;&quot;this&quot; can be used to invoke current class constructor.&#10;//Constructor Chaining" />
     <MESSAGE value="Constructor Of Generic Tree&#10;Display Of Generic Tree&#10;Size Of Generic Tree&#10;Max Of Generic Tree&#10;Height of Generic Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor Of Generic Tree&#10;Display Of Generic Tree&#10;Size Of Generic Tree&#10;Max Of Generic Tree&#10;Height of Generic Tree" />
+    <MESSAGE value="Traversal Of Generic Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Traversal Of Generic Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
