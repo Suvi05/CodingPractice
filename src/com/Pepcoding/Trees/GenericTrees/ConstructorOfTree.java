@@ -18,6 +18,7 @@ public class ConstructorOfTree {
         int[] arr = {10, 20, 50, -1, 60, -1, -1, 30, 70, -1, 80, 110, -1, 120, -1, -1, 90, -1, -1, 40, 100, -1, -1, -1};
 
         //Declared root -> We could have also done this by creating a Generic class and then instantiating it there.
+        //Pura Tree ek Node se represent hota h... jise hum bulate h Root
         Node root = null;   //Null because in starting there will be no value in root
 
         //Stack to keep track of parent of each new node.

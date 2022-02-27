@@ -48,13 +48,14 @@ public class SizeOfTree {
         System.out.println("Size of the tree: " + size(root));
     }
 
+    //Formula- Size of Tree Under 10= Size(20) + Size(30) + Size(40) + 1(Root ke khud ke naam ka)
     public static int size(Node root) {
         int s = 0;
         for (Node child : root.children) { //Loop to do recursion on children of root node
-            int temps = size(child); //Recursion on each node
-            s += temps;
+            int cs = size(child); //Recursion on each node
+            s += cs;
         }
-        s += 1;    //Save 1 for the root node
+        s += 1;    //Adding 1 for the root node
         return s;
     }
 }

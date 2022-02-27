@@ -48,7 +48,7 @@ public class HeightOfTree {
     }
 
     public static int height(Node root) {
-        int h = -1;
+        int h = -1; //To handle Single Node Tree Case
         for (Node child : root.children) { //Loop to do recursion on children of root node
             int ch = height(child); //Recursion on each node
             h = Math.max(h, ch);

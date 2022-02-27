@@ -50,12 +50,12 @@ public class MaxOfTree {
     }
 
     public static int max(Node root) {
-        int m = Integer.MIN_VALUE;
+        int m = Integer.MIN_VALUE; //Identity of Maximum ie. 1 for multiplication and 0 for Addition
         for (Node child : root.children) { //Loop to do recursion on children of root node
-            int temp = max(child); //Recursion on each node
-            m = Math.max(temp, m);
+            int cm = max(child); //Recursion on each node
+            m = Math.max(cm, m); //Finding max from each sub-tree
         }
-        m = Math.max(root.data, m);
+        m = Math.max(root.data, m);//Comparing max from sub-tree and root node
         return m;
     }
 }

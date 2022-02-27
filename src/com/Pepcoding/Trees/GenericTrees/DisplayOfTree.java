@@ -47,17 +47,6 @@ public class DisplayOfTree {
         }
         //Display() will print the whole tree starting from root node
         display(root);
-        System.out.println("Size: " + size(root));
-    }
-
-    public static int size(Node root) {
-        int s = 0;
-        for (Node child : root.children) {
-            int temps = size(child);
-            s += temps;
-        }
-        s += 1;
-        return s;
     }
 
     //display() method will print the data of nodes.
