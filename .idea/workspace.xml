@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Level Order Line-wise Traversal in Generic Tree">
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseZigZagTraversal.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Level Order Line-wise Zig-Zag Traversal in Generic Tree">
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise2Traversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise3Traversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +49,22 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LevelOrderLinewiseZigZagTraversal">
-    <configuration name="EularTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.EularTraversal" />
+  <component name="RunManager" selected="Application.LevelOrderLinewise3Traversal">
+    <configuration name="LevelOrderLinewise2Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise2Traversal" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LevelOrderLinewise3Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise3Traversal" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -101,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.Test" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrderLinewise3Traversal" />
+        <item itemvalue="Application.LevelOrderLinewise2Traversal" />
         <item itemvalue="Application.LevelOrderLinewiseZigZagTraversal" />
         <item itemvalue="Application.LevelOrderLinewiseTraversal" />
         <item itemvalue="Application.LevelOrderTraversal" />
-        <item itemvalue="Application.EularTraversal" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645972149017</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Level Order Line-wise Zig-Zag Traversal in Generic Tree">
+      <created>1645975203008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645975203008</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +251,8 @@
     <MESSAGE value="Level Order Traversal Of Generic Tree" />
     <MESSAGE value="Test" />
     <MESSAGE value="Level Order Line-wise Traversal in Generic Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level Order Line-wise Traversal in Generic Tree" />
+    <MESSAGE value="Level Order Line-wise Zig-Zag Traversal in Generic Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level Order Line-wise Zig-Zag Traversal in Generic Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
