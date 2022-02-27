@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Traversal Of Generic Tree">
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelTraversalOfTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Level Order Traversal Of Generic Tree" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645931244120</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Level Order Traversal Of Generic Tree">
+      <created>1645946348376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645946348376</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +216,8 @@
     <MESSAGE value="3nd Use Case of &quot;this&quot; Keyword &#10;&quot;this&quot; can be used to invoke current class constructor.&#10;//Constructor Chaining" />
     <MESSAGE value="Constructor Of Generic Tree&#10;Display Of Generic Tree&#10;Size Of Generic Tree&#10;Max Of Generic Tree&#10;Height of Generic Tree" />
     <MESSAGE value="Traversal Of Generic Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traversal Of Generic Tree" />
+    <MESSAGE value="Level Order Traversal Of Generic Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level Order Traversal Of Generic Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
