@@ -11,12 +11,17 @@ public class IntroToHashmap {
         hm.put("Pakistan", 45);
 
         System.out.println(hm);
-        hm.put("Sri Lanka", 10);
+        hm.put("Sri Lanka", 10);//Position of Insertion we can't control
         System.out.println(hm);
+
         System.out.println(hm.get("India"));
+        System.out.println(hm.get("Russia"));
+
+        System.out.println(hm.containsKey("India"));
+        System.out.println(hm.containsKey("Russia"));
 
         Set<String> keys = hm.keySet();
-        System.out.println(keys);
+        System.out.println(keys); //Sari Keys Mil jayegi
 
         for (String key : hm.keySet()) {
             int val = hm.get(key);
