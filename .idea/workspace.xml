@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Level Order Line-wise Approach-4 Traversal in Generic Tree">
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/RemoveLeavesOfTree.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Intro to HashMap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/IntroToHashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/IntroToHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +48,52 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntroToHashmap">
+  <component name="RunManager" selected="Application.GetCommonElement1">
+    <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.CountFrequency" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EularTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.EularTraversal" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCommonElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.GetCommonElement1" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HighestFrequencyCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.HighestFrequencyCharacter" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,52 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LevelOrderLinewise3Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise3Traversal" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LevelOrderLinewise4Traversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.LevelOrderLinewise4Traversal" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveLeavesOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.RemoveLeavesOfTree" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetCommonElement1" />
+        <item itemvalue="Application.HighestFrequencyCharacter" />
+        <item itemvalue="Application.CountFrequency" />
         <item itemvalue="Application.IntroToHashmap" />
         <item itemvalue="Application.EularTraversal" />
-        <item itemvalue="Application.RemoveLeavesOfTree" />
-        <item itemvalue="Application.LevelOrderLinewise4Traversal" />
-        <item itemvalue="Application.LevelOrderLinewise3Traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645983993333</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Intro to HashMap">
+      <created>1646422347825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1646422347825</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Intro to HashMap">
+      <created>1646422365329</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646422365329</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +297,8 @@
     <MESSAGE value="Level Order Line-wise Approach-3 Traversal in Generic Tree" />
     <MESSAGE value="Level Order Line-wise Approach-1 Traversal in Generic Tree" />
     <MESSAGE value="Level Order Line-wise Approach-4 Traversal in Generic Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level Order Line-wise Approach-4 Traversal in Generic Tree" />
+    <MESSAGE value="Intro to HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intro to HashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
