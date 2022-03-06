@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Intro to HashMap">
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/HeapsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +51,13 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetCommonElement1">
+  <component name="RunManager" selected="Application.PriorityQueueIntro">
     <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.CountFrequency" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EularTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Trees.GenericTrees.EularTraversal" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroToHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.IntroToHashmap" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.LongestConsecutiveSequence" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PriorityQueueIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.PriorityQueueIntro" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PriorityQueueIntro" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.GetCommonElement1" />
         <item itemvalue="Application.HighestFrequencyCharacter" />
         <item itemvalue="Application.CountFrequency" />
-        <item itemvalue="Application.IntroToHashmap" />
-        <item itemvalue="Application.EularTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646422365329</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Intro to HashMap">
+      <created>1646459461856</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646459461856</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

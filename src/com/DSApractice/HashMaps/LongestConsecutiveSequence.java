@@ -12,7 +12,6 @@ public class LongestConsecutiveSequence {
         while (sc.hasNextInt()) {
             A.add(sc.nextInt());
         }
-        sc.nextLine();
 
         HashMap<Integer, Boolean> hm = new HashMap<>();
         //Set all the Keys as TRUE initially
@@ -47,7 +46,7 @@ public class LongestConsecutiveSequence {
             }
         }
         for (int i = 0; i < maxLength; i++) {
-            System.out.print(maxStartPoint + i + " ");
+            System.out.print(maxStartPoint +i + " ");
         }
     }
 }
