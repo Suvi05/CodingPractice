@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Intro to HashMap">
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/HeapsIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Priority Queue">
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KLargestElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +49,7 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PriorityQueueIntro">
-    <configuration name="CountFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.CountFrequency" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KLargestElements">
     <configuration name="GetCommonElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.GetCommonElement1" />
       <module name="CodingPractice" />
@@ -84,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KLargestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.KLargestElements" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KLargestElements" />
         <item itemvalue="Application.PriorityQueueIntro" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.GetCommonElement1" />
         <item itemvalue="Application.HighestFrequencyCharacter" />
-        <item itemvalue="Application.CountFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646459461856</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Priority Queue">
+      <created>1646557501512</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1646557501512</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +313,8 @@
     <MESSAGE value="Level Order Line-wise Approach-1 Traversal in Generic Tree" />
     <MESSAGE value="Level Order Line-wise Approach-4 Traversal in Generic Tree" />
     <MESSAGE value="Intro to HashMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intro to HashMap" />
+    <MESSAGE value="Priority Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Priority Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
