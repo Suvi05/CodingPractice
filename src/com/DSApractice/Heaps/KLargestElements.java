@@ -1,7 +1,5 @@
 package com.DSApractice.Heaps;
 
-import java.io.BufferedReader;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Scanner;
@@ -22,24 +20,24 @@ public class KLargestElements {
 
         System.out.print("Enter k : ");
         int k = sc.nextInt();
-        // write your code here
         kLargest(arr, k);
-        //array se me ek PQ bharunga
     }
 
     public static void kLargest(int arr[], int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i = 0; i < arr.length; i++) {
             if (pq.size() < k) {
                 pq.add(arr[i]);
             } else {
-                if (arr[i] < pq.peek()) {
+                if (arr[i] > pq.peek()) {
                     pq.remove();
                     pq.add(arr[i]);
                 }
             }
         }
-        System.out.println(pq.remove());
+        while (pq.size() > 0) {
+            System.out.println(pq.remove());
+        }
     }
 
 }

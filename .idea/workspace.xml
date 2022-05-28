@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="K Largest Element">
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KSortedArray.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="K Sorted Array">
+      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/AbstractClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/InterfaceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/CombinationOf1and2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Sortings/ZeroNonZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/HasPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/IntroToGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KLargestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KLargestElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,17 +57,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.DSApractice.Sortings" />
       <recent name="com.Pepcoding.Trees.GenericTrees" />
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KSortedArray">
-    <configuration name="GetCommonElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.GetCommonElement1" />
+  <component name="RunManager" selected="Application.TwoMaximums">
+    <configuration name="IntroToGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Graphs.IntroToGraph" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="PATTERN" value="com.Pepcoding.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KLargestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.KLargestElements" />
+    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Sortings.OddEven" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
+          <option name="PATTERN" value="com.DSApractice.Sortings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.KSortedArray" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Recursion.Test" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
+          <option name="PATTERN" value="com.DSApractice.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.LongestConsecutiveSequence" />
+    <configuration name="TwoMaximums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Arrays.Arrays1D.TwoMaximums" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
+          <option name="PATTERN" value="com.DSApractice.Arrays.Arrays1D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.PriorityQueueIntro" />
+    <configuration name="ZeroNonZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Sortings.ZeroNonZero" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
+          <option name="PATTERN" value="com.DSApractice.Sortings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KSortedArray" />
-        <item itemvalue="Application.PriorityQueueIntro" />
-        <item itemvalue="Application.KLargestElements" />
-        <item itemvalue="Application.LongestConsecutiveSequence" />
-        <item itemvalue="Application.GetCommonElement1" />
+        <item itemvalue="Application.TwoMaximums" />
+        <item itemvalue="Application.IntroToGraph" />
+        <item itemvalue="Application.ZeroNonZero" />
+        <item itemvalue="Application.OddEven" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646615733432</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="K Sorted Array">
+      <created>1646622209475</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1646622209475</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +342,8 @@
     <MESSAGE value="Intro to HashMap" />
     <MESSAGE value="Priority Queue" />
     <MESSAGE value="K Largest Element" />
-    <option name="LAST_COMMIT_MESSAGE" value="K Largest Element" />
+    <MESSAGE value="K Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="K Sorted Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,6 +548,216 @@
           <line>49</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
           <line>63</line>
@@ -550,6 +781,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java</url>
+          <line>24</line>
+          <properties class="com.DSApractice.Sortings.OddEven">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
