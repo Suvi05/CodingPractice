@@ -1,21 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="K Sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/AbstractClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/InterfaceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/CodifydDrive/InterfaceDemo/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Arrays/Arrays1D/TwoMaximums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/RunningMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/CombinationOf1and2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Sortings/OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Sortings/ZeroNonZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/HasPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/IntroToGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/BitManipulation/GreyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/AllIndices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DecreasingIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArrayReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FirstIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetKeypadCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePathWithJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetStairPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/LastIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/MaximumOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLinear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLogarithmic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintEncodings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintKeypadCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePathWithJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintStairPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/BalancedBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/DuplicateBrackets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/LargestAreaHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/StockSpan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KLargestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/KLargestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Interfacess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Interfacess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +60,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Suvi05"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -41,6 +74,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Suvi05/CodingPractice.git",
+    "accountId": "8fff2a0b-4912-4c27-9150-71549aa1c0a1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="1yBceFWRBjsa8g1khviLRRzl6FR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,21 +91,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AQuestion1.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.IntroToGraph (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sumitverma/IdeaProjects/CodingPractice/src/com/Pepcoding"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/Pepcoding" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.DSApractice.Sortings" />
       <recent name="com.Pepcoding.Trees.GenericTrees" />
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoMaximums">
-    <configuration name="IntroToGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="AQuestion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Scaler.Assignment.Day6.AQuestion1" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Scaler.Assignment.Day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Recursion.Factorial" />
+      <module name="CodingPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Pepcoding.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntroToGraph (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Graphs.IntroToGraph" />
       <module name="CodingPractice" />
       <extension name="coverage">
@@ -76,25 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Sortings.OddEven" />
+    <configuration name="IntroToGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Graphs.IntroToGraph" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Sortings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Recursion.Test" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSApractice.Recursion.*" />
+          <option name="PATTERN" value="com.Pepcoding.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,26 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroNonZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Sortings.ZeroNonZero" />
-      <module name="CodingPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSApractice.Sortings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.AQuestion1" />
+        <item itemvalue="Application.IntroToGraph (1)" />
         <item itemvalue="Application.TwoMaximums" />
         <item itemvalue="Application.IntroToGraph" />
-        <item itemvalue="Application.ZeroNonZero" />
-        <item itemvalue="Application.OddEven" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +372,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rotate Array program" />
