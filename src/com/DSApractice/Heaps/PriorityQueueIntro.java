@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueIntro {
     public static void main(String[] args) {
+        // PriorityQueue<Integer> pq = new PriorityQueue<>();
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         int[] arr = {1, 4, 34, 87, 7, 67};

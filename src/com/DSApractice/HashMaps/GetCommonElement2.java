@@ -8,18 +8,22 @@ public class GetCommonElement2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> A = new ArrayList<>();
-        System.out.println("Enter the Elements in Array A: ");
-        while (sc.hasNextInt()) {
+        ArrayList<Integer> B = new ArrayList<>();
+        System.out.println("Enter size of Array A:");
+        int n1 = sc.nextInt();
+
+        System.out.println("Enter elements of Array A:");
+        for (int i = 0; i < n1; i++) {
             A.add(sc.nextInt());
         }
-        sc.nextLine();
-        ArrayList<Integer> B = new ArrayList<>();
-        System.out.println("Enter the Elements in Array B: ");
-        sc.nextLine();
-        while (sc.hasNextInt()) {
+
+        System.out.println("Enter size of Array B:");
+        int n2 = sc.nextInt();
+
+        System.out.println("Enter elements of Array B:");
+        for (int i = 0; i < n2; i++) {
             B.add(sc.nextInt());
         }
-        sc.nextLine();
         //Add karega ye loop, elements ko HashMap me...
         HashMap<Integer, Integer> hm = new HashMap<>();
         for (int i = 0; i < A.size(); i++) {

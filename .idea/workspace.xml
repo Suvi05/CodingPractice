@@ -4,45 +4,300 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="K Sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/BitManipulation/GreyCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/AllIndices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DecreasingIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArrayReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FirstIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetKeypadCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePathWithJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetStairPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/LastIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/MaximumOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLinear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLogarithmic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintDecreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintEncodings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintIncreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintKeypadCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePathWithJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintStairPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintZigZag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/BalancedBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/DuplicateBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/LargestAreaHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/StockSpan.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Newly Practiced DSA questions">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/CodifydDrive/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/CodifydDrive/Strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/RotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/TwoMaximums.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays1D/TwoMaximums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/Demo2DArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/Demo2DArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/MatrixMultiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/MatrixMultiplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/WaveTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Arrays/Arrays2D/WaveTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Basic/Strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/BitManipulation/JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/BitManipulation/JosephusProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/CollectionsP/ArrayListC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/CollectionsP/ArrayListC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/CollectionsP/ArrayListP/ArrayListC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/CollectionsP/ArrayListP/ArrayListC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/CountFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/CountFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/CountNumberOf0SumSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/CountNumberOf0SumSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/FindFirstNonRepeatingCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/FindFirstNonRepeatingCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/FindFirstNonRepeatingElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/FindFirstNonRepeatingElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/GetCommonElement1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/GetCommonElement1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/GetCommonElement2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/GetCommonElement2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/HighestFrequencyCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/HighestFrequencyCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/IntroToHashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/KLargestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/KLargestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestConsecutiveSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestSubarrayWith0Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestSubarrayWith0Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestSubarrayWithSumDivisibleByK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/HashMaps/LongestSubarrayWithSumDivisibleByK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/HeapsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/HeapsIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KLargestElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/KSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/PriorityQueueIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/PriorityQueueIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Heaps/RunningMedian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/MathC/AreaUnderHills.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/MathC/AreaUnderHills.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Mathematics/PrimeFactorization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Mathematics/PrimeFactorization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/CombinationOf1and2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/CombinationOf1and2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/Factorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PowerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PowerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PowerFunctionLogarithmic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PowerFunctionLogarithmic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PrintDecreasingIncreasing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PrintDecreasingIncreasing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PrintIncreasing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Recursion/PrintIncreasing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Searching/BinarySearchIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Searching/BinarySearchIteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Searching/BinarySearchRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Searching/BinarySearchRecursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/OddEven.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/OddEven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/ZeroNonZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Sortings/ZeroNonZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Strings/CharacterFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Strings/CharacterFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/MyBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/AbstractClass/MyBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Arrays/Array2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Arrays/Array2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/DecimalToBinary/DecimalToBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/DecimalToBinary/DecimalToBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/DecimalToBinary/DecimalToBinaryNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/DecimalToBinary/DecimalToBinaryNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Exceptionss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Exceptionss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Exceptionsss.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/Exceptionsss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/RException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Exceptions/RException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/GenericsP/GenericsC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/GenericsP/GenericsC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/GenericsP/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/GenericsP/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Difference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Difference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Inheritance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Inheritance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Scopes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Scopes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/ScopesHackerRank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/ScopesHackerRank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Inheritance/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/AdvancedArithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/AdvancedArithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Calculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Interfacess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/Interfaces/Interfacess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/LinkedListP/LinkedListC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/LinkedListP/LinkedListC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/LinkedListP/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/LinkedListP/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/QueuesAndStacksP/QueuesAndStacksC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/QueuesAndStacksP/QueuesAndStacksC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/StringsP/StringsC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/HackerRank/Days30/StringsP/StringsC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Basics/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Basics/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Basics/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Basics/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerRV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/BankCustomerRV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/DefaultConstructorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/DefaultConstructorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/ParameterizedConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/ParameterizedConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/UserDefinedConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/Constructor/UserDefinedConstructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/ConstructorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/ConstructorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/NonStaticMembers/NonStaticBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/NonStaticMembers/NonStaticBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/NonStaticMembers/NonStaticVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/NonStaticMembers/NonStaticVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/JavaTraining/StaticMembers/StaticVariable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Arrays/RemoveDuplicatesfromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Arrays/RemoveDuplicatesfromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Arrays/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Arrays/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Maths/IsPowerOf3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/LeetCode/Maths/IsPowerOf3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Graphs/HasPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Graphs/IntroToGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Graphs/IntroToGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/DisplayOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/DisplayOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/EularTraversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/EularTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/EularTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/HeightOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/HeightOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/HeightOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise1Traversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise1Traversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise1Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise2Traversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise2Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise3Traversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise3Traversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise3Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise4Traversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise4Traversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise4Traversal$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise4Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseZigZagTraversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseZigZagTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseZigZagTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderTraversal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderTraversal$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/LevelOrderTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/MaxOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/MaxOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/MaxOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/RemoveLeavesOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/RemoveLeavesOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/RemoveLeavesOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/SizeOfTree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/SizeOfTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Pepcoding/Trees/GenericTrees/SizeOfTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day10/AQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1_Hash2N.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1_Hash2N.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1_HashN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion1_HashN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion2_AL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion2_AL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion3_HM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day11/AQuestion3_HM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day12/AQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day13/AQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day14/AQuestion7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day15/AQuestion2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day16/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day18/AQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day19/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day19/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day19/AQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day19/AQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day21/AQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day21/AQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day21/AQuestion4_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day21/AQuestion4_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2_2Kernighan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day6/AQuestion2_2Kernighan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day8/AQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion4PascalTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion4PascalTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestionSpriralMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Assignment/Day9/AQuestionSpriralMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day11/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day12/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion2_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion5_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day13/HQuestion5_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day14/HQuestion7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day15/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day15/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day16/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day17/HQuestion5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day17/HQuestion5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day4/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day6/HQuestion2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day8/HQuestion4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day9/HQuestion1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/Scaler/Homework/Day9/HQuestion1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/GetCommonElement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/GetCommonElement2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/HashMaps/LongestConsecutiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/BitManipulation/GreyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/BitManipulation/GreyCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/HasPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Graphs/IntroToGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/AllIndices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/AllIndices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DecreasingIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/DecreasingIncreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/DisplayAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/DisplayAnArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/DisplayAnArrayReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FirstIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/FirstIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/FloodFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetKeypadCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/GetKeypadCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/GetMazePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetMazePathWithJumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/GetMazePathWithJumps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetStairPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/GetStairPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/GetSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/GetSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/LastIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/LastIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/MaximumOfAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/MaximumOfAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLinear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PowerLinear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PowerLogarithmic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PowerLogarithmic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintDecreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintDecreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintEncodings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintEncodings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintIncreasing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintKeypadCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintKeypadCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintMazePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintMazePathWithJumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintMazePathWithJumps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintStairPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintStairPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/PrintZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/PrintZigZag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Recursion/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Sortings/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/DuplicateBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/DuplicateBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/LargestAreaHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/LargestAreaHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/NextGreaterElementRight1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/NextGreaterElementRight2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/NextGreaterElementRight2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Stacks/StockSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Stacks/StockSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/ConstructorOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/DisplayOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/DisplayOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/EularTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/EularTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/HeightOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/HeightOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise1Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderLinewise1Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise2Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderLinewise2Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise3Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderLinewise3Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewise4Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderLinewise4Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderLinewiseZigZagTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderLinewiseZigZagTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/MaxOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/MaxOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/RemoveLeavesOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/RemoveLeavesOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/GenericTrees/SizeOfTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +315,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Suvi05"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Suvi05&quot;
   }
-}]]></component>
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -74,15 +329,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Suvi05/CodingPractice.git",
-    "accountId": "8fff2a0b-4912-4c27-9150-71549aa1c0a1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Suvi05/CodingPractice.git&quot;,
+    &quot;accountId&quot;: &quot;8fff2a0b-4912-4c27-9150-71549aa1c0a1&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1yBceFWRBjsa8g1khviLRRzl6FR" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,31 +350,39 @@
   "keyToString": {
     "Application.AQuestion1.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.GetCommonElement1.executor": "Run",
+    "Application.GetCommonElement2.executor": "Run",
+    "Application.HighestFrequenceyCharacter.executor": "Run",
     "Application.IntroToGraph (1).executor": "Run",
+    "Application.LongestConsecutiveSequence.executor": "Run",
+    "Application.PriorityQueueIntro.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sumitverma/IdeaProjects/CodingPractice/src/com/Pepcoding"
+    "last_opened_file_path": "/Users/sumitverma/IdeaProjects/CodingPractice/src/com/DSApractice"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/DSApractice" />
+      <recent name="$PROJECT_DIR$/src/com/DSApractice/Recursion" />
       <recent name="$PROJECT_DIR$/src/com/Pepcoding" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.DSApractice.BitManipulation" />
       <recent name="com.DSApractice.Sortings" />
       <recent name="com.Pepcoding.Trees.GenericTrees" />
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="AQuestion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Scaler.Assignment.Day6.AQuestion1" />
+  <component name="RunManager" selected="Application.PriorityQueueIntro">
+    <configuration name="GetCommonElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.HashmapAndHeaps.GetCommonElement1" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Scaler.Assignment.Day6.*" />
+          <option name="PATTERN" value="com.Pepcoding.HashmapAndHeaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +390,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Recursion.Factorial" />
+    <configuration name="GetCommonElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.GetCommonElement2" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Recursion.*" />
+          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +403,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroToGraph (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Graphs.IntroToGraph" />
+    <configuration name="HighestFrequenceyCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.HashmapAndHeaps.HighestFrequenceyCharacter" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Graphs.*" />
+          <option name="PATTERN" value="com.Pepcoding.HashmapAndHeaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +416,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntroToGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.Graphs.IntroToGraph" />
+    <configuration name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.HashMaps.LongestConsecutiveSequence" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.Graphs.*" />
+          <option name="PATTERN" value="com.DSApractice.HashMaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +429,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoMaximums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Arrays.Arrays1D.TwoMaximums" />
+    <configuration name="PriorityQueueIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Heaps.PriorityQueueIntro" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSApractice.Arrays.Arrays1D.*" />
+          <option name="PATTERN" value="com.DSApractice.Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +444,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.AQuestion1" />
-        <item itemvalue="Application.IntroToGraph (1)" />
-        <item itemvalue="Application.TwoMaximums" />
-        <item itemvalue="Application.IntroToGraph" />
+        <item itemvalue="Application.PriorityQueueIntro" />
+        <item itemvalue="Application.LongestConsecutiveSequence" />
+        <item itemvalue="Application.GetCommonElement2" />
+        <item itemvalue="Application.GetCommonElement1" />
+        <item itemvalue="Application.HighestFrequenceyCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1646622209475</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Newly Practiced DSA questions">
+      <option name="closed" value="true" />
+      <created>1768306509535</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1768306509535</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +664,8 @@
     <MESSAGE value="Priority Queue" />
     <MESSAGE value="K Largest Element" />
     <MESSAGE value="K Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="K Sorted Array" />
+    <MESSAGE value="Newly Practiced DSA questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Newly Practiced DSA questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,7 +1091,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/ConstructorOfTree.java</url>
           <line>14</line>
-          <properties class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree" method="main">
+          <properties class="com.Pepcoding.Trees.GenericTrees.ConstructorOfTree">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="42" />
@@ -827,7 +1099,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/Pepcoding/Trees/GenericTrees/SizeOfTree.java</url>
           <line>50</line>
-          <properties class="com.Pepcoding.Trees.GenericTrees.SizeOfTree" method="size">
+          <properties class="com.Pepcoding.Trees.GenericTrees.SizeOfTree">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="49" />

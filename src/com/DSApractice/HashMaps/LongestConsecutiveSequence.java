@@ -7,9 +7,13 @@ import java.util.Scanner;
 public class LongestConsecutiveSequence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Elements in Array A: ");
         ArrayList<Integer> A = new ArrayList<>();
-        while (sc.hasNextInt()) {
+        System.out.println("Enter size of Array A:");
+        int n1 = sc.nextInt();
+
+        System.out.print("Enter the Elements in Array A: ");
+        System.out.println("Enter elements of Array A:");
+        for (int i = 0; i < n1; i++) {
             A.add(sc.nextInt());
         }
 
@@ -46,7 +50,7 @@ public class LongestConsecutiveSequence {
             }
         }
         for (int i = 0; i < maxLength; i++) {
-            System.out.print(maxStartPoint +i + " ");
+            System.out.print(maxStartPoint + i + " ");
         }
     }
 }
