@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="small changes in GenericTreeIntro file">
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="GT1_GenericTreeIntro">
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sumitverma/IdeaProjects/CodingPractice/src/com/DSApractice"
+    "last_opened_file_path": "/Users/sumitverma/IdeaProjects/CodingPractice/src/com/DSApractice",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -372,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773747744363</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="GT1_GenericTreeIntro">
+      <option name="closed" value="true" />
+      <created>1773748386234</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1773748386234</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +422,8 @@
     <MESSAGE value="Unversioned Files" />
     <MESSAGE value="Uploading earlier files and Generic Tree's Intro." />
     <MESSAGE value="small changes in GenericTreeIntro file" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes in GenericTreeIntro file" />
+    <MESSAGE value="GT1_GenericTreeIntro" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT1_GenericTreeIntro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
