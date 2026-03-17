@@ -36,7 +36,8 @@ public class GT3_SizeOfGenericTree {
     public static int size(Node root) {
         int count = 0;
         for (Node child : root.children) {
-            count += size(child);
+            int cs = size(child);
+            count += cs;
         }
         return count + 1;
     }
