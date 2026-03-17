@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Unversioned Files">
-      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro.java" afterDir="false" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="Uploading earlier files and Generic Tree's Intro.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Heaps/PriorityQueueIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -356,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771841780027</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Uploading earlier files and Generic Tree's Intro.">
+      <option name="closed" value="true" />
+      <created>1773747629269</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1773747629269</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +400,8 @@
     <MESSAGE value="Newly Practiced DSA questions" />
     <MESSAGE value="Un Commited files" />
     <MESSAGE value="Unversioned Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversioned Files" />
+    <MESSAGE value="Uploading earlier files and Generic Tree's Intro." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading earlier files and Generic Tree's Intro." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
