@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="GT1_GenericTreeIntro">
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" afterDir="false" />
-    </list>
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="GT1_GenericTreeIntro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +64,7 @@
     "Application.LongestConsecutiveSequence.executor": "Run",
     "Application.PriorityQueueIntro.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
