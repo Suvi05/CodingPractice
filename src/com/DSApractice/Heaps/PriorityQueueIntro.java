@@ -11,12 +11,12 @@ public class PriorityQueueIntro {
         int[] arr = {1, 4, 34, 87, 7, 67};
 
         for (int val : arr) {
-            pq.add(val);
+            pq.add(val); //Time complexity of add - log(n)
         }
 
         while (pq.size() > 0) {
             System.out.println(pq.peek());
-            pq.remove();
+            pq.remove();  //Time complexity of remove - log(n)
         }
     }
 }
