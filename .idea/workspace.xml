@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="GT1_GenericTreeIntro" />
+    <list default="true" id="0aa83e55-5804-4497-9d0c-ed9b4f8b9657" name="Changes" comment="GT1_GenericTreeIntro">
+      <change afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT2_DisplayGenricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro$GenericTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingPractice/com/DSApractice/Trees/GenericTrees/GTConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT1_GenericTreeIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT0_GenericTreeIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GTConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSApractice/Trees/GenericTrees/GT1_GTConstructor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +66,7 @@
   "keyToString": {
     "Application.AQuestion1.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.GT2_DisplayGenricTree.executor": "Run",
     "Application.GTConstructor.executor": "Run",
     "Application.GetCommonElement1.executor": "Run",
     "Application.GetCommonElement2.executor": "Run",
@@ -85,9 +96,9 @@
       <recent name="com.Pepcoding.OOPs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GTConstructor">
-    <configuration name="GTConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Trees.GenericTrees.GTConstructor" />
+  <component name="RunManager" selected="Application.GT2_DisplayGenricTree">
+    <configuration name="GT1_GTConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Trees.GenericTrees.GT1_GTConstructor" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCommonElement1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Pepcoding.HashmapAndHeaps.GetCommonElement1" />
+    <configuration name="GT2_DisplayGenricTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSApractice.Trees.GenericTrees.GT2_DisplayGenricTree" />
       <module name="CodingPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Pepcoding.HashmapAndHeaps.*" />
+          <option name="PATTERN" value="com.DSApractice.Trees.GenericTrees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GTConstructor" />
+        <item itemvalue="Application.GT2_DisplayGenricTree" />
+        <item itemvalue="Application.GT1_GTConstructor" />
         <item itemvalue="Application.PriorityQueueIntro" />
         <item itemvalue="Application.LongestConsecutiveSequence" />
         <item itemvalue="Application.GetCommonElement2" />
-        <item itemvalue="Application.GetCommonElement1" />
       </list>
     </recent_temporary>
   </component>
