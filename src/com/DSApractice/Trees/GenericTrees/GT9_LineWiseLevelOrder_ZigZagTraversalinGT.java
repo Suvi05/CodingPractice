@@ -1,9 +1,6 @@
 package com.DSApractice.Trees.GenericTrees;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class GT9_LineWiseLevelOrder_ZigZagTraversalinGT {
     private static class Node {
@@ -50,7 +47,7 @@ public class GT9_LineWiseLevelOrder_ZigZagTraversalinGT {
                     cs.push(child);
                 }
             } else {
-                for (int i = root.children.size()-1; i >= 0; i--) {
+                for (int i = root.children.size() - 1; i >= 0; i--) {
                     Node child = root.children.get(i);
                     cs.push(child);
                 }
