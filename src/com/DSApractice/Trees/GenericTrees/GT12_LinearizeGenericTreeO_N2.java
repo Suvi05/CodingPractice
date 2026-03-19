@@ -3,7 +3,7 @@ package com.DSApractice.Trees.GenericTrees;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class GT12_LinearizeGenericTree {
+public class GT12_LinearizeGenericTreeO_N2 {
     private static class Node {
         int val;
         ArrayList<Node> children = new ArrayList<>();
