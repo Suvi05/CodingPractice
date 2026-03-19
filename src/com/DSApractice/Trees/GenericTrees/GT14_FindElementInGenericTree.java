@@ -40,7 +40,6 @@ public class GT14_FindElementInGenericTree {
         System.out.println(result);
     }
 
-    //It also returns the tail
     public static boolean findElement(Node root, int n) {
         if (root.val == n) return true;
         for (Node child : root.children) {
